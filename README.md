@@ -29,8 +29,7 @@ This will result in .webp copies on any .png or .jpg file that are in the same p
 
 To change config, include the `"img2webp"` property in package.json
 
-### src
-
+### Target image files based on extension by glob pattern
 Use glob patterns to look for images within project source folder.
 
 ```json
