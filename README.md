@@ -23,3 +23,21 @@ npm i @zakhov/img2webp --save-dev
 ```bash
 npm run webp
 ```
+This will result in .webp copies on any .png or .jpg file that are in the same path .
+
+## Options
+
+To change config, include the `"img2webp"` property in package.json
+
+### src
+
+Use glob patterns to look for images within project source folder.
+
+```json
+{
+  "img2webp": {
+    "src": "src/**/*.{png,jpg}"
+  }
+}
+```
+Running with this configuration will create .webp copies alongside .png and .jpg files in the /src folder
