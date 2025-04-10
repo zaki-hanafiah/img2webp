@@ -1,0 +1,17 @@
+.sass-cache/
+.DS_Store
+.envrc
+.env
+log/
+*.marko.js
+.cache/
+node_modules/
+static/
+css/*.map
+css/*
+.vscode/
+yarn-error.log
+testResults/
+.serverless/
+lambda/.serverless/
+.idea/
